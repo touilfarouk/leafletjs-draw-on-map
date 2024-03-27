@@ -1,0 +1,49 @@
+/* Variables */
+/* Textbox */
+.leaflet-illustrate-textbox {
+  overflow: hidden;
+  padding: 3px;
+  resize: none;
+  border: 2px solid rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  line-height: 1.0em;
+  font-size: 18pt;
+  font-weight: bold;
+  color: #dd3030;
+  text-shadow: 0 0 01em #212121, 0 0 0.2em #212121, 0 0 0.2em #212121;
+  text-shadow: white 1px 1px 0px, white -1px 1px 0px,
+             white 1px -1px 0px, white -1px -1px 0px;
+}
+.leaflet-illustrate-textbox:focus {
+  border: 2px solid #4387fd;
+  outline-color: rgba(0, 0, 0, 0);
+}
+.leaflet-illustrate-textbox-empty {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.leaflet-illustrate-textbox-container {
+  background-color: rgba(0, 0, 0, 0);
+}
+/* Toolbar */
+.leaflet-draw-toolbar a {
+  background-image: url('images/spritesheet_il.png');
+  background-repeat: no-repeat;
+}
+.leaflet-retina .leaflet-draw-toolbar a {
+  background-image: url('images/spritesheet-2x_il.png');
+  background-size: 300px 30px;
+}
+.leaflet-draw-toolbar .leaflet-illustrate-create-textbox {
+  background-position: -244px -2px;
+}
+.leaflet-draw-toolbar .leaflet-illustrate-create-pointer {
+  background-position: 0px -2px;
+}
+/* Touch */
+.leaflet-touch .leaflet-draw-toolbar .leaflet-illustrate-create-textbox {
+  background-position: -270px -1px;
+}
+.leaflet-touch .leaflet-draw-toolbar .leaflet-illustrate-create-pointer {
+  background-position: 0 -1px;
+}
+/* Mixins */

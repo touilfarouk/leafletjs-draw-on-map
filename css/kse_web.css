@@ -1,0 +1,61 @@
+
+body {
+    padding: 0;
+    margin: 0;
+}
+html, body, #map {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+th {
+    text-align: left;
+    vertical-align: top;
+}
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h2 {
+    margin: 0 0 5px;
+    color: #777;
+}
+.leaflet-container {
+    background: #fff;
+}
+#export {
+    display: block;
+    text-align: center;
+    position: absolute;
+    top:410px;
+    left:10px;
+    z-index:999;
+    height: 18px;
+    width: 18px;
+    background: #fafafa;
+    background-image: url(images/download.svg);
+    background-repeat: no-repeat;
+    background-size: 22px 22px;
+    background-position: 2px 2px;
+    padding:4px;
+    border-radius:4px;
+    box-shadow: 2px 2px 4px #aaa;
+    font-family: 'Helvetica Neue';
+    cursor: pointer;
+    font-size:12px;
+    text-decoration:none;
+}
+
+#printBtn {
+    display: block;
+    text-align: center;
+    position: absolute;
+    top:10px;
+    left:42px;
+    z-index:999;
+}
